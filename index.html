@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BhashaSetu Marathi voice assistant">
+  <title>BhashaSetu | भाषा सेतू</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">🌉 भाषा<span>सेतू</span></a>
+  <nav>
+    <a href="#home">मुख्यपृष्ठ</a>
+    <a href="#features">वैशिष्ट्ये</a>
+    <a href="#schemes">सरकारी योजना</a>
+    <a href="#assistant">AI सहाय्यक</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="tag">मराठी डिजिटल सहाय्यक</span>
+    <h1>तुमचा आवाज,<br><span>तुमचा डिजिटल सेतू!</span></h1>
+    <p>
+      सरकारी योजना, शिक्षण आणि आरोग्यविषयक माहिती
+      आता आपल्या मराठी भाषेत सहज मिळवा.
+    </p>
+    <a href="#assistant" class="primary-btn">
+      🎤 आता संवाद सुरू करा
+    </a>
+  </div>
+  <div class="hero-art">
+    <div class="phone">
+      <div class="phone-top"></div>
+      <h3>भाषासेतू</h3>
+      <div class="phone-mic">🎙️</div>
+      <p>नमस्कार!</p>
+      <small>मी तुम्हाला कशी मदत करू?</small>
+      <div class="soundwave">▂ ▅ ▇ ▅ ▂</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <h2>आमची प्रमुख वैशिष्ट्ये</h2>
+  <p class="section-subtitle">
+    डिजिटल सेवा प्रत्येकासाठी सोप्या बनवण्याचा प्रयत्न
+  </p>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon">🎤</div>
+      <h3>मराठी आवाज</h3>
+      <p>मराठीत प्रश्न विचारा आणि सहज संवाद साधा.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <h3>स्मार्ट सहाय्यक</h3>
+      <p>सामान्य प्रश्नांसाठी सोपी आणि उपयुक्त उत्तरे.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🏛️</div>
+      <h3>सरकारी योजना</h3>
+      <p>महत्त्वाच्या सरकारी योजनांची प्राथमिक माहिती.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔊</div>
+      <h3>आवाजात उत्तर</h3>
+      <p>माहिती मराठी आवाजात ऐकण्याची सुविधा.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section schemes-section" id="schemes">
+  <h2>लोकप्रिय सरकारी सेवा</h2>
+  <p class="section-subtitle">
+    खालील विषय निवडा आणि माहिती मिळवा.
+  </p>
+
+  <div class="scheme-grid">
+    <button class="scheme-card"
+      data-question="पीएम किसान योजना काय आहे?">
+      <span>🌾</span>
+      <h3>पीएम किसान</h3>
+      <p>शेतकऱ्यांसाठी आर्थिक सहाय्य</p>
+    </button>
+
+    <button class="scheme-card"
+      data-question="आयुष्मान भारत योजना काय आहे?">
+      <span>🏥</span>
+      <h3>आरोग्य योजना</h3>
+      <p>आरोग्यविषयक माहिती</p>
+    </button>
+
+    <button class="scheme-card"
+      data-question="शिष्यवृत्तीची माहिती द्या">
+      <span>🎓</span>
+      <h3>शिष्यवृत्ती</h3>
+      <p>विद्यार्थ्यांसाठी शैक्षणिक सहाय्य</p>
+    </button>
+
+    <button class="scheme-card"
+      data-question="आधार कार्ड कसे अपडेट करावे?">
+      <span>🪪</span>
+      <h3>आधार सेवा</h3>
+      <p>आधार संबंधित मार्गदर्शन</p>
+    </button>
+  </div>
+</section>
+
+<section class="section assistant-section" id="assistant">
+  <h2>तुमचा मराठी आवाज सहाय्यक</h2>
+  <p class="section-subtitle">
+    तुमचा प्रश्न बोला किंवा लिहा.
+  </p>
+
+  <div class="assistant-card">
+    <div class="assistant-heading">
+      <div class="bot-avatar">🤖</div>
+      <div>
+        <h3>भाषासेतू सहाय्यक</h3>
+        <span class="online">● डेमो उपलब्ध</span>
+      </div>
+    </div>
+
+    <div class="chat-area" id="chatArea"
+      aria-live="polite">
+      <div class="message bot-message">
+        नमस्कार! मी भाषासेतू आहे.
+        तुम्हाला कोणत्या विषयावर माहिती हवी आहे?
+      </div>
+    </div>
+
+    <p class="status" id="status">
+      मराठीत प्रश्न विचारण्यासाठी माइक वापरा.
+    </p>
+
+    <div class="input-row">
+      <input type="text" id="userInput"
+        placeholder="तुमचा प्रश्न मराठीत लिहा..."
+        aria-label="तुमचा प्रश्न">
+
+      <button id="micBtn" class="mic-btn"
+        title="मराठीत बोला">🎤</button>
+
+      <button id="sendBtn" class="send-btn">
+        पाठवा ➤
+      </button>
+    </div>
+
+    <div class="assistant-actions">
+      <button id="speakBtn">🔊 उत्तर ऐका</button>
+      <button id="stopBtn">⏹ आवाज थांबवा</button>
+      <button id="clearBtn">🗑️ चॅट साफ करा</button>
+    </div>
+
+    <p class="disclaimer">
+      सूचना: हे प्रात्यक्षिक आहे. उत्तरे पूर्वनिर्धारित आहेत.
+      अधिकृत माहितीसाठी संबंधित सरकारी वेबसाइट तपासा.
+    </p>
+  </div>
+</section>
+
+<section class="about">
+  <h2>भाषासेतूचे उद्दिष्ट</h2>
+  <p>
+    ग्रामीण नागरिक, ज्येष्ठ नागरिक आणि प्रथमच स्मार्टफोन
+    वापरणाऱ्या व्यक्तींना त्यांच्या मातृभाषेत डिजिटल
+    माहिती उपलब्ध करून देणे.
+  </p>
+</section>
+
+<footer>
+  <h3>🌉 भाषा सेतू</h3>
+  <p>मराठी आवाजातून डिजिटल समावेशकतेकडे</p>
+  <small>
+    BhashaSetu © 2026 | Seva Innovation Challenge
+  </small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
